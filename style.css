@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fillscreen-video-content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fillscreen-video-content video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+.fillscreen-video-content h1 {
+  font-size: 10rem;
+  -webkit-text-stroke: .4rem #eaeaec;
+  color: #005b96;
+}
